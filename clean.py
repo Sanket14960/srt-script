@@ -1,5 +1,6 @@
 import os
 
+# Removes all srt files in given directory and all of it's sub directories
 def remove_srt(folder_path):
 
   filenames = os.listdir(folder_path)
